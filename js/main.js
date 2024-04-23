@@ -23,8 +23,8 @@ document.getElementById("prevB").addEventListener("click", function(){
     
     selectedImg.classList.remove("active");
 
-    if(!nextImg.classList.contains("set-img")){
-        nextImg= document.querySelector(".slide:last-child"); 
+    if(nextImg == null){
+        nextImg= document.querySelector(".slide:last-of-type"); 
         nextImg.classList.add("active");
     }
     else{
