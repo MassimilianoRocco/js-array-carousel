@@ -1,0 +1,5 @@
+- Creo il layout
+- Inserisco le immagini di cui tutte tranne una avranno display none.
+- Procedo con Javascript usando nextElementSibling, ma tenendo conto che arrivato all'ultimo elemento dovrà ritornare al primo.
+- Procedo con l'effetto opposto: andando indietro dal primo elemento, dovrà portarmi all'ultimo.
+- Collego le funzionalità ai bottoni.
