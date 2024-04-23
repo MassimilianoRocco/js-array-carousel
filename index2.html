@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style2.css">
+    <title>js-array-carousel bonus 2</title>
+</head>
+<body>
+
+    <main>
+        <div class="container flex">
+            <div class="img-container">
+                <img src="./img/01.webp" class="slide set-img active">
+                <img src="./img/02.webp" class="slide set-img ">
+                <img src="./img/03.webp" class="slide set-img ">
+                <img src="./img/04.webp" class="slide set-img ">
+            </div>
+            <div class="carousel flex-column relative">
+                <div class="img_car_container flex-column">
+                    <img src="./img/01.webp" class="set-img-car selected_effect">
+                    <img src="./img/02.webp" class="set-img-car">
+                    <img src="./img/03.webp" class="set-img-car">
+                    <img src="./img/04.webp" class="set-img-car">
+                </div>
+                
+                <div class="first_button_container absolute">
+                    <button type="button" id="prevB">&#11165</button>
+                </div>
+                
+                <div class="second_button_container absolute">
+                    <button type="button" id="nextB">&#11167</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    
+    <script src="./js/bonus2.js"></script>
+</body>
+</html>
