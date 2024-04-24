@@ -57,5 +57,3 @@ document.getElementById("prevB").addEventListener("click", function(){
     nextEffect.classList.add("selected_effect");
     }
 });
-
-
